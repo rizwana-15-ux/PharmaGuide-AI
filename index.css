@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-natural-bg: #FBFBF9;
+  --color-natural-text: #1A1A1A;
+  --color-natural-brand: #5A5A40;
+  --color-natural-darkbrand: #3A3A2C;
+  --color-natural-muted: #7C7C6D;
+  --color-natural-alt: #F5F5F0;
+  --color-natural-border: #E5E5DF;
+  --color-natural-soft: #DEDECF;
+}
+
+/* Custom fade effects */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Base resets */
+body {
+  font-family: var(--font-sans);
+  background-color: #FBFBF9;
+  color: #1A1A1A;
+}
+
+/* Simple helper for hiding scrollbars but keeping functionality */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

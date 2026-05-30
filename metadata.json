@@ -1,0 +1,6 @@
+{
+  "name": "AI Pharmaceutical Product Explainer",
+  "description": "An AI-powered pharmaceutical assistant that explains medicines in a safe, simple, and responsible way.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
