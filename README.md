@@ -10,6 +10,11 @@ This prototype was developed for a **Pharmacy & Pharmaceutical Distribution GenA
 
 ---
 
+## 🔗 Project Links
+
+- **GitHub Repository:** [https://github.com/rizwana-15-ux/PharmaGuide-AI](https://github.com/rizwana-15-ux/PharmaGuide-AI)
+- **Live Preview / App Link:** [Google AI Studio Preview](https://aistudio.google.com/apps/a9676861-94f5-496b-9f14-3b96c5dbc53e)
+- 
 ## Problem Statement
 
 Many pharmacy users and patients struggle to understand medicine-related information because medical explanations are often complex and difficult to understand.
